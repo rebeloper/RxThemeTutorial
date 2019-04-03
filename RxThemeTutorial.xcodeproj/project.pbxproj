@@ -11,15 +11,25 @@
 		C978E69D2254B31B0051E5E8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978E69C2254B31B0051E5E8 /* RootViewController.swift */; };
 		C978E69F2254B31C0051E5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C978E69E2254B31C0051E5E8 /* Assets.xcassets */; };
 		C978E6A22254B31C0051E5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C978E6A02254B31C0051E5E8 /* LaunchScreen.storyboard */; };
+		C978E6AA2254B3710051E5E8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C978E6A92254B3710051E5E8 /* Colors.xcassets */; };
+		C978E6AC2254B4B80051E5E8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978E6AB2254B4B80051E5E8 /* Theme.swift */; };
+		C978E6AE2254B7E90051E5E8 /* RxTheme+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978E6AD2254B7E90051E5E8 /* RxTheme+.swift */; };
+		F4EDC9324E934CA3D92F5111 /* Pods_RxThemeTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05EE0D634126D7C721B28DC /* Pods_RxThemeTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031327C055A2C694CF0AB39C /* Pods-RxThemeTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxThemeTutorial.release.xcconfig"; path = "Target Support Files/Pods-RxThemeTutorial/Pods-RxThemeTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		A05EE0D634126D7C721B28DC /* Pods_RxThemeTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxThemeTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978E6972254B31B0051E5E8 /* RxThemeTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxThemeTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978E69A2254B31B0051E5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C978E69C2254B31B0051E5E8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C978E69E2254B31C0051E5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C978E6A12254B31C0051E5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C978E6A32254B31C0051E5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C978E6A92254B3710051E5E8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C978E6AB2254B4B80051E5E8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C978E6AD2254B7E90051E5E8 /* RxTheme+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxTheme+.swift"; sourceTree = "<group>"; };
+		EF6AFC63148CD663806F20FE /* Pods-RxThemeTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxThemeTutorial.debug.xcconfig"; path = "Target Support Files/Pods-RxThemeTutorial/Pods-RxThemeTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EDC9324E934CA3D92F5111 /* Pods_RxThemeTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6017F05421E6AAA4506BD01C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF6AFC63148CD663806F20FE /* Pods-RxThemeTutorial.debug.xcconfig */,
+				031327C055A2C694CF0AB39C /* Pods-RxThemeTutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAED86FB88C6DE0E6E93F786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A05EE0D634126D7C721B28DC /* Pods_RxThemeTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C978E68E2254B31B0051E5E8 = {
 			isa = PBXGroup;
 			children = (
 				C978E6992254B31B0051E5E8 /* RxThemeTutorial */,
 				C978E6982254B31B0051E5E8 /* Products */,
+				6017F05421E6AAA4506BD01C /* Pods */,
+				BAED86FB88C6DE0E6E93F786 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +85,11 @@
 				C978E69A2254B31B0051E5E8 /* AppDelegate.swift */,
 				C978E69C2254B31B0051E5E8 /* RootViewController.swift */,
 				C978E69E2254B31C0051E5E8 /* Assets.xcassets */,
+				C978E6A92254B3710051E5E8 /* Colors.xcassets */,
 				C978E6A02254B31C0051E5E8 /* LaunchScreen.storyboard */,
 				C978E6A32254B31C0051E5E8 /* Info.plist */,
+				C978E6AB2254B4B80051E5E8 /* Theme.swift */,
+				C978E6AD2254B7E90051E5E8 /* RxTheme+.swift */,
 			);
 			path = RxThemeTutorial;
 			sourceTree = "<group>";
@@ -68,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C978E6A62254B31C0051E5E8 /* Build configuration list for PBXNativeTarget "RxThemeTutorial" */;
 			buildPhases = (
+				7B85B0E88A334857FCC5E3AD /* [CP] Check Pods Manifest.lock */,
 				C978E6932254B31B0051E5E8 /* Sources */,
 				C978E6942254B31B0051E5E8 /* Frameworks */,
 				C978E6952254B31B0051E5E8 /* Resources */,
+				7D5F9C6012518BDFCDFBD518 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C978E6AA2254B3710051E5E8 /* Colors.xcassets in Resources */,
 				C978E69F2254B31C0051E5E8 /* Assets.xcassets in Resources */,
 				C978E6A22254B31C0051E5E8 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -126,11 +162,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B85B0E88A334857FCC5E3AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxThemeTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5F9C6012518BDFCDFBD518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxThemeTutorial/Pods-RxThemeTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTheme/RxTheme.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTheme.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxThemeTutorial/Pods-RxThemeTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C978E6932254B31B0051E5E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C978E6AC2254B4B80051E5E8 /* Theme.swift in Sources */,
+				C978E6AE2254B7E90051E5E8 /* RxTheme+.swift in Sources */,
 				C978E69D2254B31B0051E5E8 /* RootViewController.swift in Sources */,
 				C978E69B2254B31B0051E5E8 /* AppDelegate.swift in Sources */,
 			);
@@ -268,6 +359,7 @@
 		};
 		C978E6A72254B31C0051E5E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6AFC63148CD663806F20FE /* Pods-RxThemeTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +378,7 @@
 		};
 		C978E6A82254B31C0051E5E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031327C055A2C694CF0AB39C /* Pods-RxThemeTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
